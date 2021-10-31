@@ -5,7 +5,8 @@ Use Metvue to output to HDF5 as .tin file
 Because I havent figured out how to correctly project the .tin data in Geopandas, some manual processing is involved:
     Input .tin file to TINtoPts.ipynb and outputs two files:
         1. .csv with the wrong scale but correct center (no projection defined)
-        2. .gpkg with the correct scale but wrong center (For example, instead of Friendswood, the center is over by Austin. the wkt of the .tin file is used as the                    Projection.)
+        2. .gpkg with the correct scale but wrong center 
+        (For example, instead of Friendswood, the center is over by Austin. the wkt of the .tin file is used as the Projection.)
     Import .csv and .gpkg into a GIS and manually center gpkg over the csv's center.
     Project the gpkg to web mercator in the GIS.
 
