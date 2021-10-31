@@ -13,6 +13,6 @@ To create the Ellipse you can use either of the two methods below:
     1. QGIS: use Convex Hulls.
     2. Geopandas: use PtsToEllipse.ipynb and output geojson.
 
-    The benefit of using Geopandas is that we know we are getting a good geojson that wont have errors in Turf js, should we ever have a need. 
+    The benefit of using Geopandas is that we know we are getting a good geojson that wont have errors in Turf js, should there ever have a need. 
 
 The output geojson, ./out.json, is now ready to be added to any web application.
